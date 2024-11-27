@@ -37,5 +37,6 @@ void salvarListaNoDisco();
 void exibirContas();
 void carregarListaDoDisco();
 int validaTipoConta();
+void tela_exibirConta();
 
 #endif
