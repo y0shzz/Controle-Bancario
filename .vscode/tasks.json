@@ -15,6 +15,10 @@
                 "${workspaceFolder}/tela.c",  
                 "${workspaceFolder}/telaCadastro.c",
                 "${workspaceFolder}/validatipoconta.c",
+                "${workspaceFolder}/salvarListaNoDisco.c",
+                "${workspaceFolder}/carregarListaDoDisco.c",
+                "${workspaceFolder}/exibirContas.c",
+                "${workspaceFolder}/telaExibirContas.c",
                 "-o",
                 "${workspaceFolder}/output/bancario.exe"  
             ],

@@ -9,51 +9,55 @@ int main() {
         scanf("%d", &opcao_telainicial);
 
         switch (opcao_telainicial) {
-            case 1:
+            case 1: {
+                int opcao_submenu;  // Declare aqui para evitar erro
                 do {
                     system("cls");
                     tela_submenu();
-                    int opcao_submenu;
                     gotoxy(2, 23);
                     printf("Escolha uma opcao: ");
                     scanf("%d", &opcao_submenu);
 
                     switch (opcao_submenu) {
-                        case 1:
+                        case 1: {
+                            int continuar = 1;
                             do {
                                 system("cls");
                                 inserirnofinal();
+                                salvarListaNoDisco("contas.dat");
 
-                            }while (1);
-
+                                gotoxy(2, 23);
+                                printf("Deseja Inserir outra Conta? (1= SIM, 2= NAO): ");
+                                scanf("%d", &continuar);
+                            } while (continuar == 1);
                             break;
+                        }
 
                         case 2:
-                            
                             break;
 
                         case 3:
-                            
                             break;
 
                         case 4:
-                            
                             break;
 
                         case 5:
-                            
                             break;
 
                         case 6:
-                            
                             break;
 
                         case 7:
-                            
                             break;
 
                         case 8:
-                            
+                            system("cls");
+                            carregarListaDoDisco("contas.dat");  
+                            exibirContas();
+                            gotoxy(2, 23);
+                            printf("Pressione qualquer tecla para voltar ao menu...");
+                            getch();
                             break;
 
                         case 9:
@@ -72,9 +76,9 @@ int main() {
                 } while (1);  
 
                 break;
+            }
 
             case 2:
-                
                 break;
 
             case 3:
@@ -87,5 +91,6 @@ int main() {
                 break;
         }
     } while (opcao_telainicial != 3);  
+
     return 0;
 }

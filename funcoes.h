@@ -33,6 +33,9 @@ void tela_submenu();
 void tela_inicial();
 void inserirnofinal();
 void telaCadastro();
+void salvarListaNoDisco();
+void exibirContas();
+void carregarListaDoDisco();
 int validaTipoConta();
 
 #endif
