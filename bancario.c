@@ -1,6 +1,6 @@
 /*Autor: João Miguel de Oliveira Teodosio
   Data: 27/11/2024
-  OBJ: Criar executável*/
+  OBJ: Arquivo será a main*/
 #include "funcoes.h"
 
 int main() {
