@@ -1,3 +1,6 @@
+/*Autor: Cauan Hiyuji Murads Váz
+  Data: 27/11/2024
+  OBJ: Criar opção de registrar conta no final da lista*/
 #include "funcoes.h"
 
 void inserirnofinal() {
