@@ -1,3 +1,6 @@
+/*Autor: Cauan Hiyuji Muradas Váz
+  Data: 27/11/2024
+  OBJ: Listar contas já registradas*/
 #include "funcoes.h"
 
 void exibirContas() {
