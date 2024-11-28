@@ -1,3 +1,6 @@
+/*Autor: Cauan Hiyuji Muradas Váz
+  Data: 27/11/2024
+  OBJ: Criar moldura da tela padrão*/
 #include "funcoes.h"
 
 void desenha_moldura() {
