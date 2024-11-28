@@ -1,3 +1,6 @@
+/*Autor: João Miguel de Oliveira Teodosio
+  Data: 27/11/2024
+  OBJ: Juntar as funções a serem usadas no projeto*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
