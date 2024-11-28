@@ -1,3 +1,6 @@
+/*Autor: João Miguel de Oliveira Teodosio
+  Data: 27/11/2024
+  OBJ: Criar executável*/
 #include "funcoes.h"
 
 void carregarListaDoDisco(const char* nomeArquivo) {
