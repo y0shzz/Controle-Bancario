@@ -1,3 +1,6 @@
+/*Autor: João Miguel de Oliveira Teodosio
+  Data: 27/11/2024
+  OBJ: Criar salvamento de lista em disco*/
 #include "funcoes.h"
 
 void salvarListaNoDisco(const char* nomeArquivo) {
