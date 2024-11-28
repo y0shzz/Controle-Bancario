@@ -1,3 +1,6 @@
+/*Autor: Cauan Hiyuji Muradas Váz
+  Data: 27/11/2024
+  OBJ: Criar Sub-menu das opções iniciais do projeto*/
 #include "funcoes.h"
 
 void tela_submenu(){
