@@ -1,3 +1,6 @@
+/*Autor: João Miguel de Oliveira Teodosio
+  Data: 27/11/2024
+  OBJ: Criar o primeiro menu*/
 #include "funcoes.h"
 
 void tela_inicial() {
