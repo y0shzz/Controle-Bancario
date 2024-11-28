@@ -1,4 +1,7 @@
-#include "funcoes.h"
+/*Autor: João Miguel de Oliveira Teodosio
+  Data: 27/11/2024
+  OBJ: Criar validação de tipo de conta*/
+  #include "funcoes.h"
 
 int validaTipoConta() {
     int tipo;
