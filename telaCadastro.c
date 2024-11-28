@@ -1,3 +1,6 @@
+/*Autor: Cauan Hiyuji Muradas Váz
+  Data: 27/11/2024
+  OBJ: Criar tela de registro padrão de conta*/
 #include "funcoes.h"
 
 void telaCadastro() {
