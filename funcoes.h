@@ -1,3 +1,6 @@
+/*Autor: João Miguel de Oliveira Teodosio
+  Data: 27/11/2024
+  OBJ: Inicialização typedef e as telas a serem usadas e puxadas no projeto*/
 #ifndef FUNCOES_H
 #define FUNCOES_H
 
