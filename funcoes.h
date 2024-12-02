@@ -35,11 +35,13 @@ void gotoxy(int x, int y);
 void tela_submenu();
 void tela_inicial();
 void inserirnofinal();
-void telaCadastro();
+void telainserirfinal();
 void salvarListaNoDisco();
 void exibirContas();
 void carregarListaDoDisco();
 int validaTipoConta();
 void tela_exibirConta();
+void inserirnoinicio();
+void telainseririnicio();
 
 #endif

@@ -13,7 +13,7 @@ int main() {
 
         switch (opcao_telainicial) {
             case 1: {
-                int opcao_submenu;  // Declare aqui para evitar erro
+                int opcao_submenu; 
                 do {
                     system("cls");
                     tela_submenu();
@@ -21,6 +21,7 @@ int main() {
                     printf("Escolha uma opcao: ");
                     scanf("%d", &opcao_submenu);
 
+                    int continuar;
                     switch (opcao_submenu) {
                         case 1: {
                             int continuar = 1;
@@ -36,8 +37,19 @@ int main() {
                             break;
                         }
 
-                        case 2:
+                        case 2: {
+                            int continuar = 1;
+                            do {
+                                system("cls");
+                                inserirnoinicio();
+                                salvarListaNoDisco("contas.dat");
+
+                                gotoxy(2, 23);
+                                printf("Deseja Inserir outra Conta? (1= SIM, 2= NAO): ");
+                                scanf("%d", &continuar); 
+                            } while (continuar == 1);
                             break;
+                        }
 
                         case 3:
                             break;

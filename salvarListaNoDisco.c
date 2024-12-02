@@ -4,7 +4,7 @@
 #include "funcoes.h"
 
 void salvarListaNoDisco(const char* nomeArquivo) {
-    FILE* arquivo = fopen(nomeArquivo, "wb");  
+    FILE* arquivo = fopen(nomeArquivo, "ab");  
     if (arquivo == NULL) {
         printf("Erro ao abrir o arquivo para salvar.\n");
         return;
@@ -17,5 +17,4 @@ void salvarListaNoDisco(const char* nomeArquivo) {
     }
 
     fclose(arquivo);  
-    printf("Dados salvos com sucesso no arquivo '%s'.\n", nomeArquivo);
 }

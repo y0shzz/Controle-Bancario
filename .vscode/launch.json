@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/João Miguel/Desktop/controle-bancario",
-      "program": "c:/Users/João Miguel/Desktop/controle-bancario/build/Debug/outDebug",
+      "cwd": "c:/Users/Anderson Carraro/Desktop/controle-bancario",
+      "program": "c:/Users/Anderson Carraro/Desktop/controle-bancario/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

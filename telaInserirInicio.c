@@ -1,12 +1,9 @@
-/*Autor: Cauan Hiyuji Muradas Váz
-  Data: 27/11/2024
-  OBJ: Criar tela de registro padrão de conta*/
 #include "funcoes.h"
 
-void telaCadastro() {
+void telainseririnicio() {
     desenha_moldura();
     gotoxy(32, 3);
-    printf("Inserir no Final");
+    printf("Inserir no Inicio");
     gotoxy(11, 6);
     printf("Codigo da Conta..:");
     gotoxy(9, 8);

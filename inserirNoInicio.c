@@ -1,16 +1,12 @@
-/*Autor: Cauan Hiyuji Murads Váz
-  Data: 27/11/2024
-  OBJ: Criar opção de registrar conta no final da lista*/
 #include "funcoes.h"
 
-void inserirnofinal() {
+void inserirnoinicio() {
     char codigo[10], banco[50], agencia[20], numeroConta[20];
     int tipoConta, statusConta;
     float saldo, limite;
 
-    telainserirfinal();  
+    telainseririnicio();  
 
-    
     gotoxy(29, 6);
     scanf("%s", codigo);  
 
@@ -39,14 +35,14 @@ void inserirnofinal() {
     gotoxy(29, 20);
     scanf("%d", &statusConta);  
 
-    
+    // Aloca a nova conta
     Conta* novaConta = (Conta*)malloc(sizeof(Conta));
     if (novaConta == NULL) {
         printf("Erro ao alocar memória para a nova conta.\n");
         return;  
     }
 
-    
+    // Preenche os dados da nova conta
     strcpy(novaConta->codigo, codigo);
     strcpy(novaConta->banco, banco);
     strcpy(novaConta->agencia, agencia);
@@ -58,14 +54,15 @@ void inserirnofinal() {
     novaConta->next = NULL;  
     novaConta->prev = NULL;  
 
-    
-    if (tail == NULL) {
+    // Insere a nova conta no início da lista
+    if (head == NULL) {
+        // Se a lista estiver vazia
         head = novaConta;
         tail = novaConta;
     } else {
-        
-        tail->next = novaConta;  
-        novaConta->prev = tail;  
-        tail = novaConta;        
+        // Lista não vazia: insere no início
+        novaConta->next = head;  // Aponta o próximo da nova conta para a atual cabeça
+        head->prev = novaConta; // Faz o ponteiro anterior da antiga cabeça apontar para a nova conta
+        head = novaConta;       // Atualiza a cabeça da lista para a nova conta
     }
 }
